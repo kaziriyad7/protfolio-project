@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    background-color: aqua;
+    margin: 0;
 }
 h1
 {
@@ -10,4 +10,33 @@ h1
 .heading-color
 {
     color: brown;
+}
+.left-side
+{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding: 2%;
+}
+.right-side
+{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+.right-side img
+{
+    width: 100%;
+}
+section
+{
+
+    height: 800px;
+    
+}
+.top-side
+{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
 }
